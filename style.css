@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;700&family=Roboto+Mono:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to left bottom, #ee00ff, #6675ff, #0cf7ff);
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.content {
+    position: relative;
+    top: 50vh;
+    transform: translateY(-51.5%);
+    padding: 20px 40px;
+    max-width: 400px;
+    margin: auto;
+    background-color: #FFF;
+    border-radius: 8px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: 700;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.7em;
+    margin-bottom: 20px;
+}
+
+h1, h3, p, .signup_buttom {
+    text-align: center;
+}
+
+.form h3 {
+    margin-bottom: 25px;
+}
+
+h3 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 13px;
+    outline: 0;
+    border: 1px solid #adadada2;
+    margin-bottom: 15px;
+    border-radius: 7px;
+}
+
+.form a {
+    font-size: 15px;
+    color: #747474;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.form label {
+    color: #585858;
+}
+
+::placeholder {
+    color: #818181b9;
+}
+
+:-ms-input-placeholder {
+    color: #818181b9;
+}
+
+::-ms-input-placeholder {
+    color: #818181b9;
+}
+
+.social_media a img {
+    width: 40px;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom: 15px;
+}
+
+.social_media {
+    text-align: center;
+}
+
+.form input[type="submit"] {
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFF;
+    border: 0;
+    background-color: #e608fe;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #5728ff;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+.social_media p {
+    color: #747474;
+    margin-bottom: 15px;
+}
+
+.signup_buttom a {
+    text-decoration: none;
+    color: #777;
+}
+
+.signup_buttom a:hover, .form a:hover{
+    color: #333;
+    transition: color .1s ease;
+}
