@@ -87,6 +87,11 @@ input {
     margin-bottom: 15px;
 }
 
+.social_media ul li{
+    list-style: none;
+    display: inline-block;
+}
+
 .social_media {
     text-align: center;
 }
